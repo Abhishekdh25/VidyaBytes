@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card-container {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .card {
+    width: 50vw; /* Show only two cards at a time on the screen */
+    height: 200px; /* Make the cards square */
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    border-radius: 15px; /* Add rounded corners */
+  }
+  .cardi {
+    width: 50vw; /* Show only two cards at a time on the screen */
+    height: 100px; /* Make the cards square */
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    border-radius: 15px; /* Add rounded corners */
+  }
+
+
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+  /* Mobile view */
+  @media (max-width: 767px) {
+    .card-container {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+  
+    .card {
+      flex: 0 0 50vw;
+      height: 200px;
+      margin: 10px;
+    }
+
+    .cardi {
+      flex: 0 0 50vw;
+      height: 50px;
+      margin: 10px;
+    }
+
+  }
+  
