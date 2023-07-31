@@ -622,13 +622,13 @@
     min-height: 99px;
   }
 
-  .u-section-3 .u-image-1 {
-    width: 233px;
-    height: 77px;
-    margin-top: 11px;
-    margin-right: 43px;
-    margin-bottom: 11px;
-  }
+ .u-section-3 .u-image-1 {
+            width: 150px; /* Set the desired width */
+            height: 50px; /* Set the desired height */
+            margin-top: 30px;
+            margin-right: 90px;
+            margin-bottom: 11px;
+        }
 }body {
   margin: 0;
   padding: 0;
@@ -653,3 +653,4 @@
   border-radius: 10px; /* Add rounded corners */
   /* Add Material Design styles here */
 } 
+
