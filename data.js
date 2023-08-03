@@ -38,7 +38,7 @@ const backgroundData = [
     { image: "https://i.imgur.com/MxHjghQb.jpg" },
     { image: "https://www.gamezop.com/_next/image?url=https%3A%2F%2Fstatic.gamezop.com%2FHJXei0j%2Fm%2Fsquare.png&w=1920&q=100" },
     { image: "https://7071.play.gamezop.com/_next/image?url=https%3A%2F%2Fstatic.gamezop.com%2FS1Wrpf1v5ym%2Fm%2Fsquare.png&w=1920&q=100" },
-    { image: "https://i.imgur.com/QeNReYR.png" },
+    { image: "https://i.imgur.com/ZeapPlU.png" },
     { image: "https://7071.play.gamezop.com/_next/image?url=https%3A%2F%2Fstatic.gamezop.com%2FHJE-oa2z_l-%2Fm%2Fsquare.png&w=1920&q=100" },
     { image: "https://7071.play.gamezop.com/_next/image?url=https%3A%2F%2Fstatic.gamezop.com%2F4ykgM_yzbcg%2Fm%2Fsquare.png&w=1920&q=100" },
     { image: "https://7071.play.gamezop.com/_next/image?url=https%3A%2F%2Fstatic.gamezop.com%2FrkWemI2q%2Fm%2Fsquare.png&w=1920&q=100" },
