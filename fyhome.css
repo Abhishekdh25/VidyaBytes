@@ -640,11 +640,20 @@
   overflow: hidden;
 }
 .cards-wrapper {
-  display: flex;
-  width: 150px; /* (Card width + margin) * Number of visible cards */
-  height: 150px;
-  border-radius: 50px;
-  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  width: 150px; /* Set the width to make it square-shaped */
+  height: 150px; /* Set the height to make it square-shaped */
+  background-color: #2196F3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s, transform 0.3s;
+  background-size: cover;
+  transition: box-shadow 0.3s, transform 0.3s;
+
 }
 .card {
   width: 150px;
@@ -662,3 +671,4 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
 }
+
