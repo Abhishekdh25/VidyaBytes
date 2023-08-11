@@ -639,6 +639,12 @@
   height: 160px; /* Adjust height based on your preference */
   overflow: hidden;
 }
+.cards-wrapper:focus:not(:focus-visible) {
+  outline: none;
+}
+.cards-wrapper:focus-visible {
+  box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.3); /* Customize the box shadow as desired */
+}
 .cards-wrapper {
   display: inline-block;
   width: 150px; /* Set the width to make it square-shaped */
